@@ -1,0 +1,35 @@
+* Criar um arquivo para teste
+
+echo "# curso_git" >> README.md
+
+*criar um repositório
+
+git init
+
+Status do repo
+
+git status ou git status - b
+
+
+*Adicionando arquivos
+
+git add . ou git add nomedoarquivo.ext          -> ext = extensão
+
+
+*Commit (Um commit é um ponto de verificação no histórico do projeto)
+
+git commit -m "Hello World git"    -> incluíndo um título da alteração
+
+
+*Criando um branch principal
+
+git branch -M main
+
+
+
+
+
+
+
+
+

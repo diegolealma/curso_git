@@ -11,9 +11,14 @@ Status do repo
 git status ou git status - b
 
 
+* Verificando o Status das modificações
+
+git status
+
+
 *Adicionando arquivos
 
-git add . ou git add nomedoarquivo.ext          -> ext = extensão
+git add . ou git add                    + nomedoarquivo.ext          -> ext = extensão
 
 
 *Commit (Um commit é um ponto de verificação no histórico do projeto)
@@ -26,10 +31,29 @@ git commit -m "Hello World git"    -> incluíndo um título da alteração
 git branch -M main
 
 
+*Adicionando a origen do repo
+
+git remote add        + url do repo
+
+* Removendo a origin
+git remote - v                 -> para ver as origins
+
+git remote rm origin           -> para remover a origin
+
+
+Enviando as atualizações para o repo
+
+git remote add origin https://github.com/diegolealma/curso_git.git
+
+
+git push -u origin main
 
 
 
-
+* Baixnando o repo
+git remote add             + endereço da url
+git branch -M main
+git push -u origin main
 
 
 

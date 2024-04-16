@@ -60,7 +60,9 @@ git push             -> Git entenderá que você deseja enviar as alterações p
 
 * Baixnando o repo
 git remote add                   + endereço da url
+
 git branch -M main
+
 git push -u origin main
 
 

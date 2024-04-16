@@ -25,6 +25,9 @@ git add . ou git add                    + nomedoarquivo.ext          -> ext = ex
 
 git commit -m "Hello World git"    -> incluíndo um título da alteração
 
+ou
+git commit -a -m    -> ele faz o git add e commit ao mesmo tempo
+
 
 *Criando um branch principal
 
@@ -48,10 +51,15 @@ git remote add origin https://github.com/diegolealma/curso_git.git
 
 git push -u origin main
 
+depois
+
+git push             -> Git entenderá que você deseja enviar as alterações para a mesma branch remota que você configurou anteriormente usando -u.
+
+
 
 
 * Baixnando o repo
-git remote add             + endereço da url
+git remote add                   + endereço da url
 git branch -M main
 git push -u origin main
 

@@ -28,6 +28,8 @@ git commit -m "Hello World git"    -> incluíndo um título da alteração
 ou
 git commit -a -m    -> ele faz o git add e commit ao mesmo tempo
 
+git commit -am "mensagem"     -> ele faz o git add . e commit ao mesmo tempo
+
 
 *Criando um branch principal
 

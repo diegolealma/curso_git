@@ -31,6 +31,10 @@ git commit -a -m    -> ele faz o git add e commit ao mesmo tempo, mas não o add
 ou
 git commit -am "mensagem"     
 
+OBS:
+Para adicionar novos arquivos é necessário usar o git add <nome do arquivo> ou add .  para entrar no commit
+
+
 *Criando um branch principal
 
 git branch -M main

@@ -67,3 +67,7 @@ git push -u origin main
 
 
 
+*Clonando um repo
+git clone         + url do repo
+
+

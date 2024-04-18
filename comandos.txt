@@ -69,5 +69,21 @@ git push -u origin main
 
 *Clonando um repo
 git clone         + url do repo
+ ou 
+
+git clone + url do repo .     -> o . no final vai clonar no próprio diretório
 
 
+*Remover arquivo da monitoração do git
+git rm              + nome do arquivo
+
+
+*LOG das alterações 
+git log 
+
+q   ou CTRL + C             -> para sair do terminal de log
+
+*Renomeando e Movendo arquivos
+git mv rodape.css css/rodape.css               -> Estamos movendo o arquivo rodape.css para a pasta css
+
+git mv rodape.css rodape_2024.css              -> Estamos renomeando o arquivo

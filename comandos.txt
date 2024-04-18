@@ -103,6 +103,11 @@ git checkout          + nome do arquivo
 criar um arquivo na raiz do projeto chamado .ignore
 
 
+* Resetando as alterações para o último push da branch
+git reset --hard  <origin>       + nome da origin. exemplo: origin/master
+
+
+
 
 
 

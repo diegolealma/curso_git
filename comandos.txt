@@ -20,6 +20,7 @@ git status
 
 git add . ou git add                    + nomedoarquivo.ext          -> ext = extensão
 
+git add .                 -> adiciona todas as alterações adição, modificacão e exclusão de arquivos
 
 *Commit (Um commit é um ponto de verificação no histórico do projeto)
 
@@ -88,3 +89,18 @@ q   ou CTRL + C             -> para sair do terminal de log
 git mv rodape.css css/rodape.css               -> Estamos movendo o arquivo rodape.css para a pasta css
 
 git mv rodape.css rodape_2024.css              -> Estamos renomeando o arquivo
+
+*Desfazendo alteração
+git checkout          + nome do arquivo
+
+
+* Ignorar arquivos a serem enviados ao repo
+
+criar um arquivo na raiz do projeto chamado .ignore
+
+
+
+
+
+
+
